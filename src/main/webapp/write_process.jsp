@@ -22,7 +22,7 @@
  
         pstmt.executeUpdate();
  
-        response.sendRedirect("list.jsp");
+        response.sendRedirect("index.jsp");
 	} catch(Exception e) {
         out.println("저장 중 오류 발생: " + e.getMessage());
 	} finally {
